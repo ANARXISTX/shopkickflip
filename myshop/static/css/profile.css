@@ -1,0 +1,222 @@
+/* Общие стили */
+body {
+    background: url("logo.jpg") no-repeat center center;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Общий контейнер для центрирования */
+.container {
+    color: rgb(217, 215, 215);
+    max-width: 1000px; /* Ограничиваем ширину контейнера */
+    margin: 0 auto; /* Центрируем контейнер */
+    padding: 5px;
+    display: block;
+    flex-direction: row; /* Устанавливаем горизонтальное выравнивание */
+    gap: 100px; /* Добавляем пространство между профилем и корзиной */
+    justify-content: center;
+    align-items: flex-start;
+}
+
+/* Секция профиля */
+.col-lg-7 {
+    flex: 2; /* Занимает больше пространства */
+    background-color: rgb(57, 57, 57);
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Секция корзины */
+.col-lg-5 {
+    flex: 1; /* Занимает меньше пространства */
+    background-color: rgb(57, 57, 57);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Изображение профиля */
+.img-thumbnail {
+    width: 150px; /* Размер изображения */
+    height: 150px;
+    object-fit: cover;
+    margin: 0 auto 15px auto;
+    display: block;
+}
+
+/* Горизонтальное расположение формы */
+.form-row {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    flex-wrap: wrap; /* Устанавливает перенос строк, чтобы поля не выходили за границы контейнера */
+}
+
+/* Параметры для полей ввода в парах */
+.col-lg-6 {
+    flex: 1 1 48%; /* Задает ширину каждого поля как половину строки */
+    max-width: 48%;
+}
+
+.form-group, .custom-file {
+    width: 100%;
+}
+
+.form-control {
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Настройка для выбора файла */
+.custom-file {
+    display: flex;
+    align-items: center;
+}
+
+.custom-file-label {
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Кнопка сохранения */
+.btn-info {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: -40px;
+}
+
+
+
+/* Секция корзины */
+.col-lg-5 {
+    max-width: 35%; /* Ограничиваем ширину секции корзины */
+}
+
+.col-lg-5 h4 {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.badge-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* Настройка карточек товаров в корзине */
+.card {
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-body {
+    padding: 15px;
+}
+
+
+
+
+.card-title {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Список товаров в корзине */
+.list-group-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.list-group-item input[type="number"] {
+    max-width: 60px;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Итоговая часть корзины */
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Кнопка оформления заказа */
+.btn-success {
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Настройка для Navbar */
+.navbar-brand {
+    margin-left: 550px;
+}
+
+.btn1, .btn2 {
+    margin-left: 10px;
+}
+
+
+.cenaikol{
+
+    margin-top: -80px;
+    margin-left: 120px;
+
+}
+
+.cena{
+
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+.btn.btn-danger{
+
+    margin-left: 70px;
+    margin-top: 20px;
+
+}
+
+.korzinapusta{
+
+    margin-top: 140px;
+    margin-left: 170px;
+
+}
+
+
+.btn3{
+
+    margin-left: 480px;
+    width: 50px;
+    height: 50px;
+
+}

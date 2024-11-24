@@ -1,0 +1,83 @@
+body{
+    background: url("logofon.jpg");
+    display: block;
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-size: 130% 100%;
+}
+
+.button2024{
+    background-color: rgb(4, 106, 4);
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 355px;
+    height: 41px;
+}
+
+.button2024:active{
+    transform: scale(0.95);
+}
+
+
+
+.img1{
+    border-radius: 15%;
+    border: none;
+    width: 355px;
+}
+
+.card1{
+    border-top-left-radius: 15%;
+     border-top-right-radius: 15%;
+    border-top: none;
+    background-color: black;
+    color: gray;
+    margin: 10px;
+}
+
+.navbar-brand{
+    margin-right: 500px;
+}
+
+.card-group{
+    margin-left: 390px;
+}
+
+.button {
+    position: fixed;
+	left: 45px;
+	bottom: 45px;
+   }
+
+
+.btn4{
+
+    margin-left: 950px;
+
+}
+
+.btn5{
+
+    margin-left: -10px;
+
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    font-size: 24px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000;
+  }
+   
+
+.btn3{
+
+    margin-left: 1050px;
+
+}
+

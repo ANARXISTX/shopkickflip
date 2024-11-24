@@ -1,0 +1,27 @@
+{% load static%}
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <script>
+        window.addEventListener('wheel', function(e) {
+            if (e.ctrlKey) {
+                e.preventDefault();
+            }
+        }, { passive: false });
+  
+        window.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey || e.metaKey) && (e.key === '+' || e.key === '-' || e.key === '=')) {
+                e.preventDefault();
+            }
+        });
+    </script>
+</head>
+<body>
+    
+    <h1><button type="button" onclick="location.href='{% url 'catalog_view' %}'" class="btn1">КАТАЛОГ ТОВАРОВ</button></h1>
+
+
+</body>
+</html>

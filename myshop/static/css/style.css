@@ -1,0 +1,39 @@
+body {
+    background-image: url("logo7.jpg");
+    display: block;
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-size: cover;
+
+}
+
+
+
+.btn1{
+    margin-left: 500px;
+    margin-top: 250px;
+    background: #ba0000;
+    color: white;
+    height: 80px;
+    width: 600px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    opacity: 0.7; 
+  }
+
+.btn1:active { 
+    transform: scale(0.95); 
+}
+
+.fade-out { 
+    animation: fadeOut 0.5s ease-in-out forwards;
+  }
+  
+@keyframes fadeOut {
+    from { opacity: 1; }
+    to { opacity: 0; }
+  }

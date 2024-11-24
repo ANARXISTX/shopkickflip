@@ -1,0 +1,40 @@
+body{
+    background: url("logofon.jpg");
+    display: block;
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-size: cover;
+}
+
+.card1{
+    margin: 10px;
+    margin-left: 800PX;
+  }
+
+.card-body{
+    background-color: black;
+    color: gray;
+}
+
+.text1{
+    color: gray;
+}
+
+.card2{
+
+    margin-top: -392px;
+    margin-left: 480px;
+
+}
+
+.btn.btn-primary{
+
+    width: 280px;
+
+}
+
+.btn.btn-primary:active{
+    
+    transform: scale(0.95);
+
+}

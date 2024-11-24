@@ -1,0 +1,104 @@
+body{
+    background: url("logofon.jpg");
+    display: block;
+    background-repeat: no-repeat;
+    background-position: relative;
+    background-size: cover;
+}
+
+#liveAlertPlaceholder {
+    position: fixed; 
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    border-radius: 20px; 
+    text-align: center;
+    z-index: 1000; 
+    display: none; 
+    justify-content: center;
+    align-items: center;
+    color: black; 
+  }
+  
+  #liveAlertPlaceholder.show { 
+    display: flex; 
+  }
+
+.car1{
+    color: rgb(159, 158, 158);
+    height: 400px;
+    width: 600px;
+    margin: 10px;
+    background-color: rgb(25,26,28);
+    margin-left: 810px;
+    margin-top: -350px;
+
+    }
+
+.ce1{
+    padding: 5%;
+    margin-right: -20px;
+    
+    }
+    
+.btn2{
+    background-color: green;
+    margin-top: 20px;
+    color: black;
+    height: 50px;
+    width: 300px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.btn2:active{
+
+    transform: scale(0.95);
+
+}
+
+.car12{
+    background-color: black;
+    height: 400px;
+    width: 500px;
+    margin-left: -300px;
+    margin-top: 10px;
+}
+
+.car12 img{
+
+    width: 500px;
+    height: 500px;
+
+}
+
+
+.car13{
+    width: 300px;
+    height: 300px;
+    
+
+}
+
+.razmer{
+    
+    margin-top: 120px;
+
+}
+
+
+.card-text1{
+
+    margin-top: 15px;
+    width: 100px;
+    height: 10px;
+
+}
+
+.btn3{
+
+    margin-left: 1100px;
+
+}
+
